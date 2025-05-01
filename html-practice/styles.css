@@ -1,0 +1,33 @@
+body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: lightsteelblue;
+    width: 100vw;
+    padding: 0 5vw;
+    margin: 0px;
+    /* box-sizing: border-box;  */
+    /* align-items: center; */
+}
+
+#contactCard {
+    outline: auto;
+    width: 200px;
+    padding: 10px 30px;
+}
+
+#github-div {
+    padding: 10px;
+}
+
+main {
+    background-color: #FCF5E5;
+}
+
+/* header {
+    display: grid;
+} */
+
+.wrapper {
+    display: grid;
+
+  }
