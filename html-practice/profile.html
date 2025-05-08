@@ -3,83 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="profile-picture.jpg" alt="My Profile Photo" height="175px" width="135px">
-        </div>
-        <div class="wrapper">
-            <h2>Ben Anderson</h2>
-            <h3><em>Junior Software Developer</em></h3>
-        </div>
+    <header class="header">
+        <section class="header-section">
+            <div id="pic-and-intro">
+                <div id="header-pic">
+                    <img src="profile-picture.jpg" alt="My Profile Photo" height="175px" width="135px">
+                </div>
+                <div id="header-intro">
+                    <p>
+                        Hello! My name is Ben. In September of 2022, spurred by boredom and a desire for challenge, I began learning to code. 
+                        Since then, I've been exploring and building--tinkering with languages, frameworks, and algorithms--with the goal of becoming a 
+                        professional software developer.
+                    </p>
+                    <h4>Ben Anderson, <em>Junior Software Developer, LaunchCoder</em></h4>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-        <article>
-            <section>
-                <p>
-                    Hello, my name is Ben. I'm a self-taught software developer and current LaunchCode student
-                    dedicating myself to becoming a better programmer and learner. 
-                </p>
-            </section>
-            <section>
-                <table>
-                    <h3>My Core Skills</h3>
-                    <thead>
-                        <tr>
-                            <th>Skill</th>
-                            <th>Experience Level</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Python</td>
-                            <td>Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>Backend Development</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>Frontend Development</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>SQL/Relational Databases</td>
-                            <td>Intermediate</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </article>
-        <footer>
+        <div>
+            <br>
+            <br>
+        </div>
+        <div class="skills-container">
+            <h3 id="skills-header">My Core Skills</h3>
+            <ul class="skill-list">
+                <li>Python</li>
+                <li>Backend Development</li>
+                <li>Frontend Development</li>
+                <li>JavaScript</li>
+                <li>SQL/Relational Databases</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Automated Development Tools</li>
+            </ul>
+        </div>
+        <div>
             <div>
                 <br>
                 <br>
             </div>
-            <div id="github-div">
-                <a href="https://github.com/bendand">My Github</a>
-            </div>
             <div id="contactCard">
+                <h4>Contact me</h4>
                 <form>
-                    <h4>Contact me</h4>
                     <div>
                         <label>Name:</label>
-                        <input type="text" />
+                        <input type="text" class="contact-element"/>
                     </div>
                     <div>
                         <label>Email:</label>
-                        <input type="email" />
+                        <input type="email" class="contact-element"/>
                     </div>
                     <div>
                         <label>Your Message:</label>
-                        <textarea  placeholder="Your message here..."></textarea>
+                        <textarea  
+                            placeholder="Your message here..." 
+                            class="contact-element contact-text"
+                            rows="5"
+                            cols="30"
+                            >
+                        </textarea>
                     </div>
                     <div>
                         <button>
@@ -87,6 +73,18 @@
                         </button>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div>
+            <br>
+            <br>
+        </div>
+        <footer>
+            <div id="github-div">
+                <a href="https://github.com/bendand">My Github</a>
+            </div>
+            <div>
+                
             </div>
         </footer>
     </main>

@@ -1,3 +1,13 @@
+html {
+    color-scheme: light dark;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    align-items: flex-start; /* aligns items at the top */
+    gap: 20px; /* optional: adds space between image and text */
+}
+
 body {
     /* display: flex; */
     /* flex-direction: column; */
@@ -9,25 +19,61 @@ body {
     /* align-items: center; */
 }
 
+#pic-and-intro {
+    display: flex;
+    gap: 20px;
+}
+
+/* .skills-container {
+    padding: 20px;
+} */
+
+.skill-list {
+    column-count: 2;
+    column-gap: 30px; /* optional: spacing between columns */
+    list-style-position: inside; /* optional: better alignment */
+}
+
+#skills-header {
+    text-align: center;
+}
+
+
+
 #contactCard {
     outline: auto;
     width: 200px;
     padding: 10px 30px;
+    background-color: #FCF5E5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #github-div {
     padding: 10px;
 }
 
-main {
-    background-color: #FCF5E5;
+.contact-element {
+    /* padding: 5px; */
+    margin: 5px;
 }
 
-/* header {
-    display: grid;
+.contact-text {
+    
+}
+
+/* .table {
+
 } */
 
-.wrapper {
-    display: grid;
+/* main {
+    background-color: #FCF5E5;
+} */
 
-  }
+/* .header-section {
+
+  
+} */
+
+
