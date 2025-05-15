@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .feedback-form {
+
+} */
+
+.feedback-form,
+.feedback-container,
+.form-field {
+  width: auto;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.feedback-container {
+  outline: 5px inset brown;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+
+}
+/* .form-field {
+  padding: 5px;
+} */
+.entries-container {
+  width: inherit;
+}
+.entered-data-container {
+  /* text-overflow: ellipsis; */
+  word-wrap: break-word;
+}
